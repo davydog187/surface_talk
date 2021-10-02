@@ -1,0 +1,30 @@
+{
+  "name": "surface_talk",
+  "version": "1.0.0",
+  "description": "Surface: A bridge to the Javascript community - ElixirConf 2021",
+  "main": "index.js",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^1.4.0"
+  },
+  "scripts": {
+    "watch": "marp -w talk/slides.md",
+    "html": "marp talk/slides.md -o index.html",
+    "server": "marp -s talk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davydog187/surface_talk.git"
+  },
+  "keywords": [
+    "elixir",
+    "phoenix",
+    "live view",
+    "surface"
+  ],
+  "author": "Dave Lucia",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/davydog187/surface_talk/issues"
+  },
+  "homepage": "https://github.com/davydog187/surface_talk#readme"
+}
