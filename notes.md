@@ -110,6 +110,13 @@ Random ideas
        
      
 ## The points I want to hit in this talk
-* Surface takes the pain of LiveView away
+* While many come to Elixir from Ruby, I came from Javascript and have a memory of what it was like living in the Node.js ecosystem
+* LiveView has changed the way I think about building internal tools
+  * We've had a lot of success with "Developer UI" tools that can be stood up quickly and just work :TM:
+  * We can continue to build across Elixir and Phoenix versions without churn. Stability :muscle:
+* LiveView has been a game-changer, but I've still felt myself missing something from those Javascript years
+* While I don't miss primarily working in Javascript (cue the Node Modules black hole meme), I do miss the patterns from React for defining and composing components
+  * But LiveView has components Dave!
+  * And they're getting even better in Phoenix LiveView 1.6!
 * 
-
+  
