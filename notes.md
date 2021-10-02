@@ -118,5 +118,3 @@ Random ideas
 * While I don't miss primarily working in Javascript (cue the Node Modules black hole meme), I do miss the patterns from React for defining and composing components
   * But LiveView has components Dave!
   * And they're getting even better in Phoenix LiveView 1.6!
-* 
-  
