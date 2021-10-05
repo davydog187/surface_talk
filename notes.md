@@ -118,3 +118,37 @@ Random ideas
 * While I don't miss primarily working in Javascript (cue the Node Modules black hole meme), I do miss the patterns from React for defining and composing components
   * But LiveView has components Dave!
   * And they're getting even better in Phoenix LiveView 1.6!
+
+# Second chat with Marlus
+* When you're writing templates, its different from just transfomring data
+  * the template is a side effect!
+* We are in a pedulum swinging back to the server
+  * Somewhere after JQuery we lost it, we tried to do way more than what the user wanted in the browser
+* "Complexity is the thing that kills motivation for most developers" -Marlus
+* Show a diagram that shows all the layers in-between the browser and a server side API. LiveView removes the API and graphql
+  * The complexity that you're adding needs to pay off.
+  * It used to pay off! 
+* React is a functional concept living in an imperative environment
+* Paul built the formatter, it took a couple of days
+* surface.convert does not use sourceror but it would have been much easier!
+  * Only needed because of the syntax changes
+* Functional components are the same as functional components in LiveView. There's no static validation, the Surface.Component is built on top of functional components, but add the metadata
+* Marlus is going to add syntax for Gettext
+* Twig is a popular template language in PHP
+* analog to jsp templates and staying close to the language.
+* Surface gives the opportunity to evolve the DSL independent of the language
+  * PHP templates make up only 20% 
+  * Elixir is following the path that every language has with adding a canonical templating language (EEx)
+  * Surface is focusing on ergonomics
+  * LiveView added HEEX only to solve a technical issue with closing forms that wasn't possible without a different language
+  * The choice to keep .eex style expressions inside of the template language are going to hold back LiveView from making progress
+  * For/else and if/else are great examples
+* React is hard because it does not have many ergonomics because its basically the host language
+  * Vue and Svelte can innovate independent of the language. They'ved moved away from the canonical way to express yourself and this allows much nicer ergonomics
+* A great outcome for Surface is to move the primitives of Surface back to LiveView.
+  * If we move this, it enables bi-directional sharing of components between Surface/Live View. This does not exist in Javascript AFAIK
+  * This is a novel feature of LV/Surface. We are creating an opportunity that doesn't exist elsewhere where we can share these components
+* Once we remove slots, 95% of Surface will be compatible with LV
+* Macro components are being added to Surface
+  * Markdown components!
+  
