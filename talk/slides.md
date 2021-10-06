@@ -3,7 +3,7 @@ marp: true
 title: Surface: A bridge to the Javascript community
 description: Talk for ElixirConf 2021
 footer: Surface — @davydog187
-theme: uncover
+theme: default
 paginate: true
 _paginate: false
 ---
@@ -21,13 +21,67 @@ _paginate: false
 <!--
 * While many come to Elixir from Ruby, I came from Javascript 
 * have a memory of what it was like living in the Node.js ecosystem
+* I see some parallels with the experience I had in the JS community with what's happening
+right now with LiveView
 -->
 
 ---
-# Javascript in the Browser - Early 2010s
-* JQuery
+# Talk
+1. The roots of Javascript
+2. The emergence of LiveView
+3. Surface
+
+---
+# Javascript - the early years
+
+<!-- Show a picture of a stupid 2000s style javascript page -->
+
+---
+# JQuery
+
+<!-- 
+* JQuery was solving the problem of havign a good cross-browser experience, simplifying Apis
+* Introduced simplified ways of doing AJAX
+* This created a boon in interactive web applications
+-->
+
+---
+
+
+# Javascript Frameworks - Early 2010s
+
+<!-- As developers started seeing the power of client driven development, they wanted frameworks for structuring code 
+
+ We start to see the emergence of Javascript frameworks
+
+-->
+
 * Backbone.js
+* Ember
 * Angular
+
+---
+
+# Javascript Frameworks - Templates
+* Mustache
+* Handlebars
+* Directives in HTML (Angular)
+
+---
+
+# Single Page Applications
+
+<!-- And here is where the Single Page Application emerges in the ecosystem-->
+
+---
+# Javascript Mid 2010s - Virtual DOM
+
+<!-- 
+Leap of innovation!
+Write "declarative code", the library/framework understands how to patch the DOM based on changes
+
+Sea-change how frontend applications were written.
+-->
 
 ---
 # Javascript in the Browser - Mid 2010s
